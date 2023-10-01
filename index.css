@@ -1,0 +1,77 @@
+.mogo {
+  color: #95e1d3;
+  font-size: 24px;
+}
+
+a[href^="./index"] {
+  text-decoration: underline;
+  color: pink;
+}
+
+a:not(.about) {
+  color: aquamarine;
+  text-decoration: none;
+}
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.navheader {
+  width: 100%;
+}
+
+.work {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.services {
+  text-align: center;
+}
+
+footer p span {
+  color: red;
+}
+
+.photography {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photography1 {
+  width: 480px;
+}
+
+li:not(.photography1) {
+  width: 480px;
+}
+
+.lorem {
+  color: #b6b6b6;
+}
+
+.people {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.peopleli {
+  width: 300px;
+}
+
+form input {
+  width: 230px;
+  height: 39px;
+}
+
+form button {
+  background-color: #95e1d3;
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: medium;
+}
