@@ -75,3 +75,18 @@ form button {
   color: white;
   font-size: medium;
 }
+
+.who {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.meet {
+  text-align: center;
+}
+
+.lorem1 {
+  text-align: center;
+  color: #b6b6b6
+}
