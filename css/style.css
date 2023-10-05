@@ -1,25 +1,26 @@
+:root {
+  --accent-color: #f38181;
+  --info-color: #95e1d3;
+  --main-color: #b6b6b6;
+}
+
 .mogo {
-  color: #95e1d3;
+  color: var(--info-color);
   font-size: 24px;
 }
 
 a[href^="./index"] {
   text-decoration: underline;
-  color: pink;
+  color: var(--accent-color);
 }
 
 a:not(.about) {
-  color: aquamarine;
+  color: var(--info-color);
   text-decoration: none;
 }
 .navigation {
-  display: flex;
-  flex-wrap: wrap;
   list-style-type: none;
-}
-
-.navheader {
-  width: 100%;
+  display: flex;
 }
 
 .work {
@@ -33,7 +34,7 @@ a:not(.about) {
 }
 
 footer p span {
-  color: red;
+  color: var(--accent-color);
 }
 
 .photography {
@@ -50,7 +51,7 @@ li:not(.photography1) {
 }
 
 .lorem {
-  color: #b6b6b6;
+  color: var(--text-color);
 }
 
 .people {
@@ -63,16 +64,19 @@ li:not(.photography1) {
   width: 300px;
 }
 
+.peopleli p {
+  color: var(--text-color);
+}
+
 form input {
   width: 230px;
   height: 39px;
 }
 
 form button {
-  background-color: #95e1d3;
+  background-color: var(--info-color);
   height: 40px;
   width: 150px;
-  color: white;
   font-size: medium;
 }
 
@@ -88,5 +92,5 @@ form button {
 
 .lorem1 {
   text-align: center;
-  color: #b6b6b6
+  color: var(--text-color);
 }
