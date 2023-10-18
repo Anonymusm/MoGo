@@ -4,15 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
     <title>MoGo</title>
   </head>
 
   <body>
-    <header>
-      <p class="mogo">MoGo</p>
+    <header class="">
+      <p class="logo">MoGo</p>
 
-      <nav>
-        <ul class="navigation">
+      <nav class="navigation">
+        <ul class="item-navigation">
           <li class="navheader">
             <a class="about" href="./index.html">ABOUT</a>
           </li>
@@ -27,48 +33,48 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section>
-        <p class="work">We work with</p>
-        <h2 class="services">Amazing Services</h2>
+    <main class="container">
+      <section class="first-section">
+        <p class="first-section-name">We work with</p>
+        <h2 class="first-section-title">Amazing Services</h2>
         <ul class="photography">
-          <li class="photography1">
-            <h3>PHOTOGRAPHY</h3>
+          <li class="photography-item">
+            <h3 class="photography-title">PHOTOGRAPHY</h3>
             <p class="lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               repellendus, dolor accusantium fugiat ea molestiae.
             </p>
           </li>
-          <li class="photography1">
-            <h3>PHOTOGRAPHY</h3>
+          <li class="photography-item">
+            <h3 class="photography-title">PHOTOGRAPHY</h3>
             <p class="lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               repellendus, dolor accusantium fugiat ea molestiae.
             </p>
           </li>
-          <li class="photography1">
-            <h3>PHOTOGRAPHY</h3>
+          <li class="photography-item">
+            <h3 class="photography-title">PHOTOGRAPHY</h3>
             <p class="lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               repellendus, dolor accusantium fugiat ea molestiae.
             </p>
           </li>
-          <li>
-            <h3>PHOTOGRAPHY</h3>
+          <li class="photography-item">
+            <h3 class="photography-title">PHOTOGRAPHY</h3>
             <p class="lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               repellendus, dolor accusantium fugiat ea molestiae.
             </p>
           </li>
-          <li>
-            <h3>PHOTOGRAPHY</h3>
+          <li class="photography-item">
+            <h3 class="photography-title">PHOTOGRAPHY</h3>
             <p class="lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               repellendus, dolor accusantium fugiat ea molestiae.
             </p>
           </li>
-          <li>
-            <h3>PHOTOGRAPHY</h3>
+          <li class="photography-item">
+            <h3 class="photography-title">PHOTOGRAPHY</h3>
             <p class="lorem">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
               repellendus, dolor accusantium fugiat ea molestiae.
@@ -77,9 +83,9 @@
         </ul>
       </section>
 
-      <section>
-        <p class="who">Who we are</p>
-        <h3 class="meet">Meet our team</h3>
+      <section class="second-section">
+        <p class="second-section-name">Who we are</p>
+        <h2 class="second-section-title">Meet our team</h2>
         <p class="lorem1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -87,34 +93,48 @@
           aliquip ex ea commodo consequat.
         </p>
         <ul class="people">
-          <li class="peopleli">
-            <img src="./images/mathew-dix.jpg" alt="Matthew Dix" />
-            <h3>Matthew Dix</h3>
-            <p>Graphic Design</p>
+          <li class="people-item">
+            <img
+              src="./images/mathew-dix.jpg"
+              alt="Matthew Dix"
+              class="team-name"
+            />
+            <h3 class="team-name">Matthew Dix</h3>
+            <p class="job-name">Graphic Design</p>
           </li>
-          <li class="peopleli">
+          <li class="people-item">
             <img
               src="./images/christopher-campbell.jpg"
               alt="Christopher Campbell"
+              class="team-name"
             />
-            <h3>Christopher Campbell</h3>
-            <p>Branding/UX design</p>
+            <h3 class="team-name">Christopher Campbell</h3>
+            <p class="job-name">Branding/UX design</p>
           </li>
-          <li class="peopleli">
-            <img src="./images/michael-fertig.jpg" alt="Michael Fertig" />
-            <h3>Michael Fertig</h3>
-            <p>Developer</p>
+          <li class="people-item">
+            <img
+              src="./images/michael-fertig.jpg"
+              alt="Michael Fertig"
+              class="team-name"
+            />
+            <h3 class="team-name">Michael Fertig</h3>
+            <p class="job-name">Developer</p>
           </li>
         </ul>
       </section>
-      <footer>
-        <p>
+      <footer class="footer">
+        <p class="footer-item">
           &copy;2016 MoGo free PSD template by
-          <span>Laaqiq</span>
+          <span class="footer-item-span">Laaqiq</span>
         </p>
-        <form>
-          <input type="email" name="email" placeholder="Your Email..." />
-          <button type="submit">Subscribe</button>
+        <form class="subscribe-form">
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email..."
+            class="subscribe-input"
+          />
+          <button type="submit" class="subscribe-btn">Subscribe</button>
         </form>
       </footer>
     </main>
