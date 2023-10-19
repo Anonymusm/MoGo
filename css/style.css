@@ -2,7 +2,11 @@
   --accent-color: #f38181;
   --info-color: #95e1d3;
   --main-color: #b6b6b6;
-  --text-color: #fff;
+  --text-color: #333;
+}
+
+* {
+  color: var(--text-color);
 }
 
 h2 {
@@ -70,7 +74,7 @@ h2 {
 }
 
 .lorem {
-  color: var(--text-color);
+  color: #fff;
 }
 
 .second-section-name {
