@@ -5,26 +5,41 @@
   --text-color: #fff;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
 .logo {
   color: var(--info-color);
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 30px;
+  text-indent: 300px;
 }
 
-a[href^="./index"] {
+.item-navigation {
+  list-style-type: none;
+  display: flex;
+}
+
+.about {
   text-decoration: underline;
   color: var(--accent-color);
 }
 
-a:not(.about) {
+.navheader-link {
   color: var(--info-color);
   text-decoration: none;
 }
-.item-navigation {
-  list-style-type: none;
-  display: flex;
+
+.about,
+.navheader {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .first-section-name {
@@ -33,29 +48,48 @@ a:not(.about) {
   font-weight: 400;
   font-size: 24px;
 }
+
 .first-section-title {
   text-align: center;
-}
-
-.footer-item-span {
-  color: var(--accent-color);
 }
 
 .photography {
   display: flex;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .photography-item {
   width: 480px;
 }
 
-li:not(.photography1) {
-  width: 480px;
+.photography-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .lorem {
   color: var(--text-color);
+}
+
+.second-section-name {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.second-section-title {
+  text-align: center;
+}
+
+.lorem1 {
+  text-align: center;
+}
+
+li:not(.photography1) {
+  width: 480px;
 }
 
 .people {
@@ -68,12 +102,28 @@ li:not(.photography1) {
   width: 300px;
 }
 
+.team-name {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .job-name {
   color: var(--main-color);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 15px;
+}
+
+.footer-item {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer-item-span {
+  color: var(--accent-color);
 }
 
 .subscribe-input {
@@ -92,56 +142,10 @@ li:not(.photography1) {
   font-size: 14px;
 }
 
-.second-section-name {
-  text-align: center;
-  font-family: "Kaushan Script", cursive;
-  font-weight: 400;
-  font-size: 24px;
-}
-
-.second-section-title {
-  text-align: center;
-}
-
-.lorem1 {
-  text-align: center;
-}
-
-.footer-item {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.team-name {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.photography-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.about,
-.navheader {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
 .lorem,
 .lorem1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: var(--main-color);
   font-size: 15px;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 30px;
 }
