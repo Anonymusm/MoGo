@@ -24,7 +24,7 @@ h2 {
   text-indent: 300px;
 }
 
-.item-navigation {
+.navigation-list {
   list-style-type: none;
   display: flex;
 }
@@ -34,61 +34,58 @@ h2 {
   color: var(--accent-color);
 }
 
-.navheader-link {
+.navigation-link {
   color: var(--info-color);
   text-decoration: none;
 }
 
 .about,
-.navheader {
+.navigation-item {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
-.first-section-name {
+.work-name {
   text-align: center;
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-size: 24px;
 }
 
-.first-section-title {
+.work-title {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
 }
 
-.photography {
+.work-list {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
 }
 
-.photography-item {
+.work-item {
   width: 480px;
 }
 
-.photography-title {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.lorem {
+.work-item-text {
   color: #fff;
 }
 
-.second-section-name {
+.who-name {
   text-align: center;
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-size: 24px;
 }
 
-.second-section-title {
+.who-title {
   text-align: center;
 }
 
-.lorem1 {
+.who-text {
   text-align: center;
 }
 
@@ -96,23 +93,23 @@ li:not(.photography1) {
   width: 480px;
 }
 
-.people {
+.who-list {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
 
-.people-item {
+.who-item {
   width: 300px;
 }
 
-.team-name {
+.who-item-name {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
-.job-name {
+.jwho-item-job-name {
   color: var(--main-color);
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -120,34 +117,34 @@ li:not(.photography1) {
   font-size: 15px;
 }
 
-.footer-item {
+.footer-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
-.footer-item-span {
+.footer-text-span {
   color: var(--accent-color);
 }
 
-.subscribe-input {
+.footer-input {
   width: 230px;
   height: 39px;
 }
 
-.subscribe-btn {
+.footer-btn {
   background-color: var(--info-color);
   height: 40px;
   width: 150px;
   font-size: medium;
-  color: var(--text-color);
+  color: #fff;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
 
-.lorem,
-.lorem1 {
+.work-item-text,
+.who-text {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: var(--main-color);
