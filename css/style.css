@@ -40,7 +40,7 @@ h2 {
   text-decoration: none;
 }
 
-.about,
+.navigation-link[href^="./"],
 .navigation-item {
   font-weight: 400;
   font-size: 14px;
