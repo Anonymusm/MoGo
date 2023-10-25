@@ -7,18 +7,19 @@
 
 * {
   color: var(--text-color);
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
-  font-family: "Montserrat", sans-serif;
+
   font-weight: 700;
   font-size: 30px;
+  text-align: center;
 }
 
 .logo {
   color: var(--info-color);
-  font-size: 24px;
-  font-family: "Montserrat", sans-serif;
+
   font-weight: 700;
   font-size: 30px;
   text-indent: 300px;
@@ -29,7 +30,7 @@ h2 {
   display: flex;
 }
 
-.about {
+.navigation-link[href^="./"] {
   text-decoration: underline;
   color: var(--accent-color);
 }
@@ -41,23 +42,15 @@ h2 {
 
 .about,
 .navigation-item {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
 
-.work-name {
+.work-subtitle {
   text-align: center;
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
   font-size: 24px;
-}
-
-.work-title {
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  font-size: 14px;
 }
 
 .work-list {
@@ -70,11 +63,16 @@ h2 {
   width: 480px;
 }
 
+.work-item-title {
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .work-item-text {
   color: #fff;
 }
 
-.who-name {
+.who-subtitle {
   text-align: center;
   font-family: "Kaushan Script", cursive;
   font-weight: 400;
@@ -104,7 +102,6 @@ li:not(.photography1) {
 }
 
 .who-item-name {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -118,7 +115,6 @@ li:not(.photography1) {
 }
 
 .footer-text {
-  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -138,7 +134,6 @@ li:not(.photography1) {
   width: 150px;
   font-size: medium;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
 }
