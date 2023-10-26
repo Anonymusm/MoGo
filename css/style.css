@@ -70,6 +70,7 @@ h2 {
 
 .work-item-text {
   color: #fff;
+  line-height: 22px;
 }
 
 .who-subtitle {
@@ -104,7 +105,6 @@ li:not(.photography1) {
 .who-item-name {
   font-weight: 400;
   font-size: 14px;
-  color: var(--text-color);
 }
 
 .who-item-job-name {
