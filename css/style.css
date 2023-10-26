@@ -104,6 +104,7 @@ li:not(.photography1) {
 .who-item-name {
   font-weight: 400;
   font-size: 14px;
+  color: var(--text-color);
 }
 
 .jwho-item-job-name {
