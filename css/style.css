@@ -68,7 +68,6 @@ h2 {
 }
 
 .navigation-list {
-  list-style-type: none;
   display: flex;
 }
 
@@ -98,7 +97,6 @@ h2 {
 .work-list {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
 }
 
 .work-item {
@@ -135,7 +133,6 @@ li:not(.photography1) {
 }
 
 .who-list {
-  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
 }
