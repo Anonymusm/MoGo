@@ -176,6 +176,10 @@ li:not(.photography1) {
   font-size: 15px;
 }
 
+footer {
+  padding-bottom: 10px;
+}
+
 .footer-text {
   font-weight: 400;
   font-size: 14px;
