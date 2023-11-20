@@ -157,6 +157,7 @@ header {
 .work-item-title {
   font-weight: 400;
   font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .work-item-text {
