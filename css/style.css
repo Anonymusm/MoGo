@@ -10,6 +10,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -31,13 +35,9 @@ img {
   height: auto;
 }
 
-.list {
-  list-style: none;
+ul {
   padding: 0;
-}
-
-.link {
-  text-decoration: none;
+  list-style: none;
 }
 
 .visually-hidden {
@@ -91,16 +91,23 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  column-gap: 55px;
 }
 
 .navigation-link:hover {
-  text-decoration: underline;
   color: var(--accent-color);
 }
 
 .navigation-link {
   color: var(--info-color);
-  margin-right: 55px;
+}
+
+.navigation-link:hover::after {
+  content: '';
+  background-color: var(--accent-color);
+  height: 3px;
+  margin-top: 10px;
+  display: block;
 }
 
 .navigation-link,
@@ -180,10 +187,7 @@ header {
 
 .who-list {
   display: flex;
-}
-
-.who-item + .who-item {
-  margin-left: 30px;
+  column-gap: 30px;
 }
 
 .who-img {
@@ -219,7 +223,7 @@ footer {
 .footer-text {
   font-weight: 400;
   font-size: 14px;
-  text-align: left;
+  margin-left: auto;
   width: 100%;
 }
 
